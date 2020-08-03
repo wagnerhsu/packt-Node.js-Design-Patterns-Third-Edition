@@ -1,5 +1,5 @@
 // exports a function
-export function log (message) {
+export function log(message) {
   console.log(message)
 }
 
@@ -18,11 +18,11 @@ export const LEVELS = {
 
 // exports a class
 export class Logger {
-  constructor (name) {
+  constructor(name) {
     this.name = name
   }
 
-  log (message) {
+  log(message) {
     console.log(`[${this.name}] ${message}`)
   }
 }
